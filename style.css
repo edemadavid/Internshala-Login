@@ -1,0 +1,203 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: bolder;
+    margin: 3rem 0rem 1rem 0rem;
+}
+
+.hr {
+    border:rgb(250, 1, 84) 2px solid;
+    width: 180px;
+    height: 1px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+#page1 , #page2, #page3, #page4 {
+    
+    display: block;
+    width: 380px;
+    height: 250px;
+    border: 1px solid grey;
+    background-color: rgba(255, 255, 255, 0.514) ;
+    border-top: rgb(250, 1, 84) 10px solid;
+    margin: auto;
+    padding: 3rem 0rem 1rem 1.5rem;
+    border-radius: 5px;
+
+}
+
+#page2{
+    display: none;
+    padding: 2rem 0rem 1rem 1.5rem;
+    color: green;
+    height: 200px;
+}
+
+#page3{
+    display: none;
+    padding: 2rem 0rem 1rem 1.5rem;
+    height: 300px;
+}
+
+#page4 {
+    display: none;
+    padding: 2rem 0rem 1rem 1.5rem;
+    color: green;
+    height: 200px;
+}
+
+
+input{
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    height: 20%;
+}
+
+#page3 input {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    height: 2rem;
+}
+
+
+
+button{
+    width: 90%;
+    height: 20%;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(250, 1, 84);
+    color: white;
+    font-size: .7rem;
+    font-weight: bolder;
+} 
+
+
+#page3 button{
+
+    width: 90%;
+    height: 2rem;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding-left: 24%;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+
+        background-size: 200vw 100vh;
+        background-position: -10rem 0rem;
+      
+    }
+    h2{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        margin: 3rem 0rem 1rem 0rem;
+    }
+
+    .hr {
+        width: 100px;
+    }
+
+    #page1 , #page2, #page3, #page4 {
+    
+        /* display: block; */
+        width: 200px;
+        height: 180px;
+        border: 1px solid grey;
+        background-color: rgba(255, 255, 255, 0.808);
+        border-top: rgb(250, 1, 84) 10px solid;
+        margin: auto;
+        padding: 1.5rem 0rem 1rem 1rem;
+        border-radius: 5px;
+    
+    }
+    label{
+        font-size: .9rem;
+    }
+
+    input{
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+        width: 90%;
+        height: 20%;
+    }
+
+    #page2{
+        display: none;
+        padding: 1rem 0rem 1rem .7rem;
+        color: green;
+        height: 200px;
+        
+    }
+
+    #page2 p {
+        font-size: .9rem;
+    }
+    #page2 .link{
+        padding-left: 5%;
+    }
+
+    #page3{
+        display: none;
+        padding: 2rem 0rem 1rem 1rem;
+        height: 250px;
+    }
+
+    #page3 input{
+        margin-bottom: 1rem;
+    }
+    #page4 {
+        height: 150px ;
+
+    }
+    #page4 p {
+        font-size: .8rem;
+    }
+
+    #page4 .link {
+        padding-left: 4%;
+    }
+
+    .link {
+        text-decoration: none;
+        color: black;
+        padding-left: 11%;
+        font-size: .9rem;
+    }
+    button{
+        width: 90%;
+        height: 20%;
+        margin-bottom: .7rem;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(250, 1, 84);
+        color: white;
+        font-size: .7rem;
+        font-weight: bolder;
+    } 
+
+  }
