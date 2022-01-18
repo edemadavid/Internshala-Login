@@ -2,7 +2,7 @@
 
 Link 
 
-https://reverent-wing-ab999e.netlify.app/
+https://login-ab999e.netlify.app/
 
 
 1. On Page 1 - click "Reset my Password" : it takes you to Page 2.
